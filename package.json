@@ -1,0 +1,15 @@
+{
+  "name": "runegod",
+  "version": "1.0.0",
+  "description": "information for alot in runescape!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Godly Ki",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "discord.js-commando": "^0.9.0"
+  }
+}
