@@ -1,12 +1,14 @@
-const commando = require('discord.js-commando');
-const fs = require("fs");
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-const bot = new commando.Client();
+client.on('ready', () => {
+  console.log('I am ready!');
+});
 
-bot.on('ready', () => { bot.user.setGame('with Har-Akens Tentacles') })
-bot.registry.registerGroup('random', 'Random');
-bot.registry.registerGroup('bosses', 'Bosses');
-bot.registry.registerDefaults();
-bot.registry.registerCommandsIn(__dirname + "/commands");
+client.on('ready', () => { bot.user.setGame('with Har-Akens Tentacles') })
+client.registry.registerGroup('random', 'Random');
+client.registry.registerGroup('bosses', 'Bosses');
+client.registry.registerDefaults();
+client.registry.registerCommandsIn(__dirname + "/commands");
 
-bot.login('MzczOTYxMjg2OTc2OTI5Nzky.DO81Rw.M5IASL5Lav7yj-2I2N_XXNl5qpQ');
+client.login('MzczOTYxMjg2OTc2OTI5Nzky.DO81Rw.M5IASL5Lav7yj-2I2N_XXNl5qpQ');
