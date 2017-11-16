@@ -9,4 +9,4 @@ bot.registry.registerGroup('bosses', 'Bosses');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
-bot.login('MzczOTYxMjg2OTc2OTI5Nzky.DNaWHg.Hl3Laqn6NsTNhaIVaByLnGPmp6A');
+bot.login('MzczOTYxMjg2OTc2OTI5Nzky.DO81Rw.M5IASL5Lav7yj-2I2N_XXNl5qpQ');
